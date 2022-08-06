@@ -1,4 +1,4 @@
-package com.course.server.domain;
+package com.course.system.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
