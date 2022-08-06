@@ -1,4 +1,4 @@
-package com.course.system;
+package com.course.server;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@MapperScan("com.course.system.mapper")
+@MapperScan("com.course.server.mapper")
 public class SystemApplication {
 
 	public static void main(String[] args) {
